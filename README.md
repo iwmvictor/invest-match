@@ -69,3 +69,15 @@ This project is licensed under the [MIT License](LICENSE).
 
    ```bash
    git clone https://github.com/iwmvictor/investor-match-platform.git
+
+
+## Screenshots
+
+### Home
+![Home](/public/preview/home.png)
+
+### Sign Up
+![Sign Up](/public/preview/signup.png)
+
+### Sign In
+![Sign In](/public/preview/signin.png)
