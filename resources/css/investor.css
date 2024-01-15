@@ -1,0 +1,175 @@
+:root {
+    /* colors  */
+    --primary-color: #001f3f; /* primary color */
+    --secondary-color: #daa520;
+    --accent-color: rgb(200, 200, 200);
+    --white-color: #ffffff;
+    --neutral-color: #f2f2f2;
+    --box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    --transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+
+    /* Font Sizes */
+    --font-size-base: 16px;
+    --font-size-header-1: 2.5rem;
+    --font-size-header-2: 2rem;
+    --font-size-header-3: 1.75rem;
+    --font-size-paragraph: 1rem;
+    --font-size-link: 1rem;
+    --font-size-button: 1.25rem;
+    --font-size-input: 1rem;
+
+    /* Apply Font Sizes to Elements */
+    font-size: var(--font-size-base);
+
+    h1 {
+        font-size: var(--font-size-header-1);
+    }
+
+    h2 {
+        font-size: var(--font-size-header-2);
+    }
+
+    h3 {
+        font-size: var(--font-size-header-3);
+    }
+
+    p {
+        font-size: var(--font-size-paragraph);
+    }
+
+    a {
+        font-size: var(--font-size-link);
+    }
+
+    button {
+        font-size: var(--font-size-button);
+    }
+
+    input {
+        font-size: var(--font-size-input);
+    }
+
+    ::placeholder {
+        font-size: var(--font-size-input);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+/* Global CSS */
+body {
+    background-color: #000;
+    background: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Reusable CSS */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.col-12,
+.col-11,
+.col-10,
+.col-9,
+.col-8,
+.col-7,
+.col-6,
+.col-5,
+.col-4,
+.col-3,
+.col-2,
+.col-1 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-1 {
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+}
+
+.col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-4 {
+    -ms-flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    flex: 0 0 33.333333%;
+}
+
+.col-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+
+.col-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* LOGIN */
+.login{
+    width: 100%;
+    background: #000;
+}

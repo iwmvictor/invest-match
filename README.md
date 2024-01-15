@@ -68,7 +68,7 @@ This project is licensed under the [MIT License](LICENSE).
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/iwmvictor/investor-match-platform.git
+   git clone https://github.com/iwmvictor/investor-match.git
 
 
 ## Screenshots

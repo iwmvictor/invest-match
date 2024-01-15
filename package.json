@@ -8,6 +8,9 @@
     "devDependencies": {
         "axios": "^1.6.1",
         "laravel-vite-plugin": "^0.8.0",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.69.7",
+        "sass-loader": "^13.3.3",
         "vite": "^4.0.0"
     }
 }

@@ -21,3 +21,14 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/invest', function () {
+    return view('/investor/home');
+});
+
+Route::get('/auth/login', function () {
+    return view('/investor/login');
+});
+
+Route::get('/auth/signup', function () {
+    return view('/investor/home');
+});

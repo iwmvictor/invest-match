@@ -25,6 +25,7 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email for registeration</span>
+                <input required type="text" placeholder="Investor or Innovator?">
                 <input required type="text" placeholder="Name">
                 <input required type="email" placeholder="Email">
                 <input required type="password" placeholder="Password">
