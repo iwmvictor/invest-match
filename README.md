@@ -81,3 +81,13 @@ This project is licensed under the [MIT License](LICENSE).
 
 ### Sign In
 ![Sign In](/public/preview/signin.png)
+
+### Innovators dashboard
+![Sign In](/public/preview/innovator.png)
+
+### Investors dashboard
+![Sign In](/public/preview/investor.png)
+
+### Admin dashboard
+![Sign In](/public/preview/admin.png)
+
